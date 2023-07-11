@@ -127,4 +127,26 @@
   background-color: #11c34c;
 }
 
+.btn, .btn-medium, .btn-small {
+  font-size: 1rem;
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Extend */
+.btn-small {
+  width: 40px;
+  height: 30px;
+  font-size: 0.875rem;
+  border: 1px solid;
+}
+
+.btn-medium {
+  width: 60px;
+  height: 35px;
+  font-size: 0.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
