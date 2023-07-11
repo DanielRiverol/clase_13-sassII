@@ -1,0 +1,35 @@
+$temporada:"saraza";
+$darkMode:"si";
+@if($temporada == "summer") {
+    
+  .header-container {
+    background-image: url(../img/summer.jpg);
+
+  }
+}@else if($temporada == "autumn"){
+    .header-container {
+        background-image: url(../img/autumn.jpg);
+        .header-title{
+            color: white;
+           /*  span{
+                color: chartreuse;
+            } */
+        }
+    
+      }
+}@else if($temporada== "halloween"){
+    .header-container {
+        background-image: url(../img/summer.jpg);
+    
+      }
+}@else if($temporada== "winter"){
+    .header-container {
+        background-image: url(../img/winter.jpg);
+    
+      }
+}@else{
+    .header-container {
+        background-image: url(../img/default2.jpg);
+    
+      }
+}
